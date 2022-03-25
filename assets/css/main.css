@@ -111,12 +111,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e44c65;
+		color: #39C088;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #39C088 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -2947,6 +2947,38 @@ input, select, textarea {
 		z-index: 1;
 	}
 
+	.goto-next2 {
+		border: 0;
+		bottom: 0;
+		display: block;
+		height: 5em;
+		left: 50%;
+		top: 100%;
+		margin: 0 0 0 -5em;
+		overflow: hidden;
+		position: absolute;
+		text-indent: 10em;
+		white-space: nowrap;
+		width: 10em;
+		z-index: 1;
+	}
+
+	.goto-next2:before {
+		background-image: url("images/arrow.svg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		content: '';
+		display: block;
+		height: 1.5em;
+		left: 50%;
+		margin: -0.75em 0 0 -1em;
+		position: absolute;
+		top: 50%;
+		width: 2em;
+		z-index: 1;
+	}
+
 		.goto-next:before {
 			background-image: url("images/arrow.svg");
 			background-position: center center;
@@ -3429,7 +3461,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #39C088;
 					}
 
 					#header nav ul li > ul {
